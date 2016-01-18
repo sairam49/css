@@ -1,0 +1,64 @@
+.dd6{
+     display:inline;
+   }
+    .div1{
+        width:400px;
+          height:120px;
+            margin: 0% 0% 0% 1%;
+              border: 2px solid orange;
+                background-color: #99ff99;
+              }
+
+              .div2{
+                  position: absolute;
+                      left: 100;
+                          top: 35;
+                            width:170px;
+                              height:200px;
+                                border: 2px solid #8C8787;
+                                  z-index:1;
+                                    background-color:#4d79ff;
+                                  }
+                                  .div3{
+                                      position: absolute;
+                                          left: 230;
+                                              top: 10;
+                                                width:200px;
+                                                  height:100px;
+                                                    border: 2px solid #2A2525;
+                                                      background-color: #b3b3cc;
+                                                    }
+
+                                                     .div4{
+                                                         width:400px;
+                                                           height:120px;
+                                                             margin:4% 1%;
+                                                               border: 2px solid orange;
+                                                                 background-color: #99ff99;
+                                                               }
+                                                               .div5{
+                                                                   position: absolute;
+                                                                       left: 250;
+                                                                           top: 200;
+                                                                             width:200px;
+                                                                               height:100px;
+                                                                                 border: 2px solid #E30D0D;
+                                                                                   z-index:2;
+                                                                                     background-color: #E26666;
+                                                                                   }
+                                                                                   .dd6 .div6{
+                                                                                       float:right;
+                                                                                         width:70px;
+                                                                                           height:450px;
+                                                                                             background-color: #ccccff;
+                                                                                               padding:10px 20px;
+                                                                                             }
+                                                                                             .div7{
+                                                                                                 position: absolute;
+                                                                                                     left: 0;
+                                                                                                         bottom: 0;
+                                                                                                             height: 100px;
+                                                                                                                 width: 100%;
+                                                                                                                   background-color:#D7CFCF;
+                                                                                                                    padding:15px 400px;
+                                                                                                                  }
