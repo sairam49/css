@@ -1,0 +1,53 @@
+
+#metrics li {
+	list-style-type: none;
+	color: black;
+	width: 60%;
+	float: left;
+	position:relative;
+  margin: 15px 0;
+}
+#metrics li:before{
+  
+  content: '';
+	width: 26.3%;
+	height: 2px;
+	background: black;
+	position: absolute;
+	left: -3.5%;
+	top: 6px;
+  margin: 0px;
+}
+
+#metrics li:after {
+	content: '';
+	width: 0.5%;
+	height: 68px;
+	background: black;
+	position: absolute;
+	left: -3.9%;
+	top: -12px;
+}
+#metrics li:last-child:after {
+	
+	content: none; 
+}
+
+**************************************************
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>complex_2</title>
+    <link rel="stylesheet" href="#">
+  </head>
+  
+  <body>
+    <h3>Summary Metrics</h3>
+    <ul id="metrics">
+      <li align="center"> TOTAL IMPRESSIONS</li>
+      <li align="center"> SPEND</li>
+      <li align="center"> CPA</li>
+    </ul>
+    </body>
+  </html>

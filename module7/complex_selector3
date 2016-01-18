@@ -1,0 +1,70 @@
+#vertical {
+	margin-bottom: 35px;
+	overflow: hidden;
+	counter-reset: step;
+}
+#vertical li {
+	list-style-type: none;
+	color: black;
+	width: 60%;
+	float: left;
+	position:relative;
+}
+#vertical li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 25px;
+  height:25px;
+	line-height: 20px;
+	display: block;
+	font-size: 20px;
+	color: white;
+	background: green;
+	border-radius: 30px;
+	margin: 10px -1px -20px -29px;
+  text-indent:6px;
+}
+
+#vertical li:after {
+	content: '';
+	width: 0.5%;
+	height: 50px;
+	background: black;
+	position: absolute;
+	left: -3.9%;
+	top: -12px;
+	z-index: -1;
+}
+#vertical li:first-child:after {
+	
+	content: none; 
+}
+
+
+********************************************************
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>complex_3</title>
+    <link rel="stylesheet" href="#">
+  </head>
+  
+  <body>
+    <ul id="vertical">
+      <li> Create and email agreement</li>
+      <li> Account owner sign</li>
+      <li> Admin countersign</li>
+      <li > Capture Report fields</li>
+      <li> Verification</li>
+      <li > Activate campign</li>
+    </ul>
+    <div class="form_div">
+      <form action="#" method="post">
+        <label for="pause">Campaign Status: Running</label>
+        <br>
+         <input type="submit" id="pause" value="Pause">
+      </form>
+      </div>
+    </body>
+  </html>
