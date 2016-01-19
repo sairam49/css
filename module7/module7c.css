@@ -1,0 +1,41 @@
+#vertical {
+	/*margin-bottom: 35px;
+	overflow: hidden;*/
+	counter-reset: step;
+}
+#vertical li {
+	list-style-type: none;
+	color: black;
+	width: 60%;
+	float: left;
+	position:relative;
+}
+#vertical li:before {
+content: counter(step, decimal);
+counter-increment: step;
+width: 25px;
+height: 25px;
+line-height: 20px;
+display: block;
+font-size: 20px;
+color: #FFF;
+background: #008000 none repeat scroll 0% 0%;
+border-radius: 30px;
+margin: 14px -1px -20px -29px;
+text-indent: 6px
+}
+
+#vertical li:after {
+	content: "";
+	width: 0.2%;
+	height: 50px;
+	background: #000 none repeat scroll 0% 0%;
+	position: absolute;
+	left: -1.5%;
+	top: -12px;
+	z-index: -1;
+}
+#vertical li:first-child:after {
+	
+	content: none; 
+}
