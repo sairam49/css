@@ -1,7 +1,70 @@
-body {
-    background-image: url("/home/sai/Downloads/atlas.jpg");
-background-size : cover ;
-  }
-  .logo{
-   padding: 200px 2px 2px 150px;
- }
+.one{
+  height:850px;
+  border:12px solid #117191;
+background-image: url("atlas.jpg");
+background-size: cover; 
+border-radius:20px;
+color:white;
+}
+
+.outer{
+background-color: #117191;
+}
+.two{
+height:200px;
+width:1250px;
+
+position: absolute;
+top: 350px;
+left: 280px;
+}
+
+.two .a{
+margin-right: 30px;
+float:left;
+width:16%;
+background-image: url("chrome.png");
+display:block;
+background-size:cover;
+height:95%
+}
+
+.two .b{
+margin-right: 40px;
+float:left;
+width:16%;
+background-image: url("firefox.png");
+display:block;
+background-size:cover;
+height:95%
+      }
+
+.two .c {
+margin-right: 40px;
+float:left;
+width:16%;
+background-image: url("mercury.png");
+display:block;
+background-size:cover;
+height:95%
+
+   }
+.two .d{
+margin-right: 40px;
+float:left;
+width:16%;
+background-image: url("internet-explorer.png");
+display:block;
+background-size:cover;
+height:95%
+      }
+.two .e{
+margin-right: 40px;
+float:left;
+width:16%;
+background-image: url("opera.png");
+display:block;
+background-size:cover;
+height:95%
+      }
+
