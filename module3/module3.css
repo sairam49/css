@@ -1,47 +1,60 @@
+body{
+margin:0%;
+}
 .one{
- height:850px;
- border:12px solid #117191;
+border:18px solid #39506D;
 background-image: url("atlas.jpg");
 background-size: cover; 
-border-radius:20px;
+border-radius:33px;
 color:white;
 }
-
+.outer ,.one
+{
+position:absolute;
+top:0px;
+left:0px;
+right:0px;
+bottom:0px;
+}
 .outer{
-background-color: #117191;
+background-color:#39506D;
 }
 .two{
 height:100px;
+width:850px;
+position:absolute;
+top: 267px;
+left: 232px;
+}
+
+
+.two .a,.b,.c,.d,.e{
+height:100px;
 width:100px;
-display:block;
-position: absolute;
-top: 350px;
-left: 280px;
-margin-right:40px;
+display:inline-block;
+margin-right:66px;
+background-size:cover;
 }
 
-.two .a
-{
+.a
+ {
 background-image: url("chrome.png");
-background-size:cover;
 }
 
-.two .b{
+.b{
 background-image: url("firefox.png");
-background-size:cover;
 
       }
 
-.two .c {
+.c {
 background-image: url("mercury.png");
-background-size:cover;
    }
-.two .d{
+.d{
 background-image: url("internet-explorer.png");
-background-size:cover;
+
       }
-.two .e{
+.e{
 background-image: url("opera.png");
-background-size:cover;
+
       }
 
