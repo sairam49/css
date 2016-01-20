@@ -1,0 +1,79 @@
+.p1{
+  color:#6D7883;
+display:inline;
+font-size:12px;
+}
+
+.top .fa{
+color:#CDCDCD;
+}
+
+.one,.two{
+height:56px;
+width:500px;
+border-left: 2px solid #CDCDCD;
+}
+.two
+{
+height:56px;
+width:500px;
+border-left: 2px solid #CDCDCD;
+}
+
+.h_line{
+height: 2px;
+width: 68px;
+background-color: #CDCDCD;
+display:inline-block;
+
+
+}
+
+.p2{
+font-size:15px;
+color:#B79C86;
+display:inline-block;
+
+}
+
+.fa{
+color:#79B14E;
+display:inline-block;
+}
+
+.three .fa,.two .fa{
+color:#CDCDCD;
+display:inline-block;
+
+}
+
+.extra,.extra1{
+width:2px;
+height:28px;
+background-color: #CDCDCD;
+position: absolute;
+}
+
+.extra{
+left: 7.33%;
+}
+
+.extra1{
+left: 46%;
+}
+.left{
+margin-left: 7%;
+margin-top: 4%;
+}
+.right{
+margin-top: -14.5%;
+margin-left: 46%;
+}
+
+p{
+color:#6D7883;
+font-size:18px;
+}
+
+
+
