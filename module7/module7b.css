@@ -43,18 +43,18 @@ display:inline-block;
 
 .extra,.extra1{
 width:2px;
-height:28px;
+height:29px;
 background-color: #CDCDCD;
 position: relative;
 display:inline-block;
 }
 
 .extra{
-left: -14.4%;
+left: -14.5%;
 }
 
 .extra1{
-left: -14.4%;
+left: -14.5%;
 }
 .left{
 width: 40.5%;
@@ -67,6 +67,8 @@ margin-left:6%
 width: 49.5%;
 display: inline-block;
 height:400px;
+position: absolute;
+top: 28px;
 }
 
 p{
