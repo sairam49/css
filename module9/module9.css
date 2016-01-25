@@ -1,36 +1,35 @@
 body{
-margin:0;
-background-color:#F4F5F7;
+margin: 0;
+background-color: #F4F5F7;
 }
 .outer{
-height:500px;
-width:30%;
-background-color:white;
-border-top:2px solid #EA8A7F;
-margin:5% 33% 0% 33%;
-text-align:center;
+height: 470px;
+width: 27%;
+background-color: white;
+border-top: 2px solid #EA8A7F;
+margin: 5% auto auto;
+text-align: center;
 font-family:'Arial', 'Helvetica', sans-serif;
 }
 
 .top{
-position: relative;
-top: 15px;
-font-size:16px;
+margin-top: 5%;
+font-size: 16px;
 }
 .text{
-color:#676798;
-display:inline-block;
+color: #676798;
+display: inline-block;
 }
 a {
 text-decoration: none;
 }
 .bottom p{
-display:inline-block;
+display: inline-block;
 color: #676798;
 }
 
 .ctext{
-color:#4dc4ff;
+color: #4dc4ff;
 }
 
 .uname,.pwd{
@@ -42,9 +41,8 @@ border-bottom: 1px solid rgb(102, 153, 153);
 margin-top: 11%;
 }
 .fa-envelope-o, .fa-lock{
-position: relative;
-left: -5%;
-color:#4dc4ff;
+margin-right: 4%;
+color: #4dc4ff;
 }
 
 .vline{
@@ -53,44 +51,40 @@ width: 2px;
 display: inline-block;
 background-color: rgb(102, 153, 153);
 position: relative;
-top: 10%;
+top: 8%;
 }
 
 .mail,.pass{
 border: 0px none;
-position: relative;
-right: -12px;
+margin-right: -10%;
+margin-left: 3%;
+height: 40px;
 top: 2px;
 }
 .bottom{
-position: relative;
-top: 27%;
+margin-top: 10%;
 font-size: 12px;
 }
 .fpass{
-position: relative;
-top: 23%;
-font-size:14px;
+margin-top: 5%;
+font-size: 14px;
 color: #676798;
 }
 .remember{
-position: relative;
-top: 45px;
+margin-top: 8%;
 }
 .remember p{
-display:inline-block;
-font-size:14px;
+display: inline-block;
+font-size: 14px;
 color: #676798;
 }
-
+.x{margin-top: 5%; }
 .fa-check-square{
-color:#4dc4ff;
+color: #4dc4ff;
 }
 .sign{
-
-position: relative;
-top: 70px;
-background-color:#00AAEF;
+margin-top: 5%;
+background-color: #00AAEF;
 text-decoration: none;
 color: white;
 width: 70%;

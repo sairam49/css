@@ -46,29 +46,22 @@ width:2px;
 height:29px;
 background-color: #CDCDCD;
 position: relative;
+left: -72px;
 display:inline-block;
 }
 
-.extra{
-left: -14.5%;
-}
-
-.extra1{
-left: -14.5%;
-}
 .left{
 width: 40.5%;
-display: inline-block;
+display: inline-table;
 height: 400px;
-margin-left:6%
-
+vertical-align: bottom;
+margin-left: 7%;
+margin-top: 7%;
 }
 .right{
 width: 49.5%;
 display: inline-block;
 height:400px;
-position: absolute;
-top: 28px;
 }
 
 p{
@@ -84,4 +77,6 @@ width:500px;
 
 }
 
-
+body{
+margin:0;
+}
