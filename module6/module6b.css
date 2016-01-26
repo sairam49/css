@@ -50,7 +50,7 @@ right:0px;
 {
 display:inline-block;
 float:right;
-width: 20%;
+width: 24%;
 height: 50px;
 }
 ul{
@@ -60,7 +60,7 @@ margin: auto;
 }
 .up li{
 height: 50px;
-width: 85px;
+width: 20%;
 display:inline-block;
 text-align: center;
 }

@@ -4,7 +4,7 @@ background-color: #F4F5F7;
 }
 .outer{
 height: 470px;
-width: 27%;
+width:310px;
 background-color: white;
 border-top: 2px solid #EA8A7F;
 margin: 5% auto auto;
@@ -34,14 +34,16 @@ color: #4dc4ff;
 
 .uname,.pwd{
 
-height: 44px;
+height: 41px;
 width: 82%;
 margin-left: 9%;
 border-bottom: 1px solid rgb(102, 153, 153);
 margin-top: 11%;
 }
 .fa-envelope-o, .fa-lock{
-margin-right: 4%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
 color: #4dc4ff;
 }
 
@@ -50,16 +52,16 @@ height: 15px;
 width: 2px;
 display: inline-block;
 background-color: rgb(102, 153, 153);
-position: relative;
-top: 8%;
+    margin-left: 1%;
+    margin-top: 5%;
 }
 
 .mail,.pass{
 border: 0px none;
-margin-right: -10%;
 margin-left: 3%;
-height: 40px;
-top: 2px;
+height: 35px;
+width: 185px;
+
 }
 .bottom{
 margin-top: 10%;
