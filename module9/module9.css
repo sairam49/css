@@ -3,8 +3,8 @@ margin: 0;
 background-color: #F4F5F7;
 }
 .outer{
-height: 470px;
-width:310px;
+height: 445px;
+width:420px;
 background-color: white;
 border-top: 2px solid #EA8A7F;
 margin: 5% auto auto;
@@ -34,17 +34,18 @@ color: #4dc4ff;
 
 .uname,.pwd{
 
-height: 41px;
-width: 82%;
-margin-left: 9%;
+height: 50px;
+width: 72%;
+margin-left: 14%;
 border-bottom: 1px solid rgb(102, 153, 153);
-margin-top: 11%;
+margin-top: 3%;
 }
 .fa-envelope-o, .fa-lock{
     float: left;
     margin-top: 5%;
     margin-left: 5%;
 color: #4dc4ff;
+margin-right: 3%;
 }
 
 .vline{
@@ -52,7 +53,7 @@ height: 15px;
 width: 2px;
 display: inline-block;
 background-color: rgb(102, 153, 153);
-    margin-left: 1%;
+    
     margin-top: 5%;
 }
 
@@ -60,11 +61,13 @@ background-color: rgb(102, 153, 153);
 border: 0px none;
 margin-left: 3%;
 height: 35px;
-width: 185px;
+width:235px;
+    outline: none;
+    font-size: 16px;
 
 }
 .bottom{
-margin-top: 10%;
+margin-top: 5%;
 font-size: 12px;
 }
 .fpass{
@@ -73,24 +76,24 @@ font-size: 14px;
 color: #676798;
 }
 .remember{
-margin-top: 8%;
+margin-top: 6%;
 }
 .remember p{
 display: inline-block;
 font-size: 14px;
 color: #676798;
 }
-.x{margin-top: 5%; }
+.x{margin-top: 8%; }
 .fa-check-square{
 color: #4dc4ff;
 }
 .sign{
-margin-top: 5%;
+margin-top: 4%;
 background-color: #00AAEF;
 text-decoration: none;
 color: white;
-width: 70%;
-height: 40px;
+width: 75%;
+height: 50px;
 font-size: 15px;
 border: 0px none;
 border-radius: 4px;
