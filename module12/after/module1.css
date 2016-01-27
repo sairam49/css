@@ -1,0 +1,27 @@
+/*
+=========================================================
+This document is essentially to show the use of :
+->Types of selectors
+->Selectors precedence
+->Combining selectors
+->Common property values
+=========================================================
+*/
+
+
+.introduction {
+color: #39004d;
+font-size: 15px;
+}
+
+#about {
+color: #993300;
+}
+
+#details {
+font-size: 12px; /* to illustrate precendence */
+}
+
+h3{
+font-size: 30px;
+}
