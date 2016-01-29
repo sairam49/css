@@ -1,0 +1,178 @@
+body{
+margin:0 auto;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a{
+text-decoration:none;
+color:black;
+}
+
+.one{
+background-color:#0275D8;
+color:white;
+text-align:center;
+height:40px;
+}
+.one p{
+margin:0;
+padding-top:5px;
+}
+
+/*nav bar*/
+
+.two p{
+  margin-left:60px;
+  font-weight:bold;
+  font-size: 20px;
+}
+.two p,.two ul,.two nav{
+  display: inline-block;
+}
+
+.two li{
+  display: inline-block;
+  font-size: 16px;
+  padding: 0px 12px;
+}
+
+.left{
+  margin-right:200px;
+}
+
+
+
+/*hamberger icon*/
+
+.change input {
+  display: none;
+}
+.change label{
+  color: #0087cc;
+  display: inline-block;
+  font-size: 24px;
+  padding: 0px 12px;
+  position: absolute;
+  top: 50px;
+  right: 5px;
+}
+.change input:checked + label {
+  color: #9799a7;
+}
+.change nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .15s ease;
+}
+.change input:checked ~ nav {
+  max-height: 600px;
+}
+.change ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.change li{
+  line-height: 2;
+  display: block;
+}
+.change a{
+  color: black;
+  padding: 6px 12px;
+}
+
+/*middle content*/
+
+.three{
+
+text-align:center;
+  	background:#5C4283;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+
+.three div{
+ margin: auto;
+}
+
+.th1{
+color: white;
+border:1px solid white;
+  width:100px;
+  height:100px;
+  border-radius:15px;
+  font-size:90px;
+  margin-top:60px;
+
+}
+.th1 p{margin:auto;}
+.th2{
+color: white;
+width:50%;
+  font-size:24px;
+  margin:30px auto;
+  padding:30px 0;
+
+}
+.th3{
+height: 40px;
+width: 210px;
+border-radius: 5px;
+background-color:#5B4282;
+color: white;
+border:1px solid white;
+  font-size:18px;
+}
+.th4{
+text-align:center;
+  color:#9581B8;
+  font-size:15px;
+}
+.th4 p{
+padding:10px;
+}
+
+.four{
+
+text-align:center;
+}
+.f1{
+ margin:50px 0 0 0;
+font-size:34px;
+}
+
+.f2{
+color:#A99B94;
+font-size:15px;
+margin:7px auto;
+width:35%;
+}
+
+.change{
+display: none;
+}
+
+
+@media all and (max-width: 768px){
+
+.two{
+    display:none;
+}
+
+.change{
+display:block;
+
+}
+
+.th2,.f2{
+  width:100%;
+}
+
+.change p{
+        font-weight:bold;
+	margin-left: 30px
+}
+}
+
+
